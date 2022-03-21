@@ -1,0 +1,29 @@
+section{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;   
+    margin-left: 0px;
+}
+
+h4 {
+    margin:10px;
+    font-size: 22px;
+    color: rgb(146, 149, 151);
+}
+
+.film{
+    cursor: pointer;
+    box-shadow: 0px 2px 12px rgb(145, 142, 142); 
+    margin: 0px 2px;
+    img{
+        width: 300px;
+        height: 180px;
+    }
+    :hover{
+        transform: scale(1.1);
+        transition: 0.6s;
+        box-shadow: -2px -2px 12px rgb(145, 142, 142); 
+    }  
+
+}
