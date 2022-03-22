@@ -24,11 +24,14 @@ h4 {
     width: 300px;
     height: 180px;
     border: 2px solid black;
+<<<<<<< HEAD
     transition: all 0.5s ease;
+=======
+     transition: all 0.6s ease;
+>>>>>>> 36f1f157ff9f5498783f0a852e28c11112e5959c
   }
   :hover {
     transform: scale(1.1);
-    transition: 0.6s;
     box-shadow: -2px -2px 12px rgb(145, 142, 142);
 
   }
