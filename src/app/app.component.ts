@@ -8,6 +8,8 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'Netflix-Angular';
 
+  public isDark: boolean = true;
+
   terrorFilms = {
     section:"TERROR",
   films : [
@@ -127,4 +129,14 @@ films : [
     },
   ]
   };
+
+  public changeDark = () => {
+    if (this.isDark == false) {
+      this.isDark = true;
+    }
+    else if (this.isDark == true) {
+      this.isDark = false;
+    }console.log(this.isDark);
+  }
+
 }

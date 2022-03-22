@@ -1,4 +1,20 @@
-html{
-    font-family: sans-serif;
-    background-color: black;
+
+
+.light{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  height:1500px;
+  max-width: 1920px;
+  background-color: white;
+  color: rgb(26, 26, 26);
+  transition: 1s;
   }
+
+  .dark{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height:1500px;
+   width:100%;
+  background-color:rgb(26, 26, 26) ;
+  color: whitesmoke;
+  transition: 1s;
+  }
+

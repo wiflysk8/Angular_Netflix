@@ -1,6 +1,8 @@
-<app-navigator></app-navigator>
+<div [ngClass]="{ dark: isDark == true, light: isDark == false }">
+<app-navigator [nightMode]="changeDark"></app-navigator>
 <app-hero></app-hero>
 <app-films [filmsGallery]="actionFilms"></app-films>
 <app-films [filmsGallery]="dramaFilms"></app-films>
 <app-films [filmsGallery]="terrorFilms"></app-films>
 <app-films [filmsGallery]="comedyFilms"></app-films>
+</div>
