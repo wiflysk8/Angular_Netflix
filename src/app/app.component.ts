@@ -9,7 +9,7 @@ export class AppComponent {
   title = 'Netflix-Angular';
 
   terrorFilms = {
-    section:"Terrror",
+    section:"TERROR",
   films : [
     {
       name: 'Apostol',
@@ -39,7 +39,7 @@ export class AppComponent {
 };
 
 comedyFilms = {
-  section:"Comedia",
+  section:"COMEDIA",
 films : [
     {
       name: 'rick y morty',
@@ -69,7 +69,7 @@ films : [
   };
 
   dramaFilms = {
-    section:"Drama",
+    section:"DRAMA",
     films : [
     {
       name: '1917',
@@ -99,7 +99,7 @@ films : [
   };
 
   actionFilms = {
-    section:"Acción",
+    section:"ACCIÓN",
     films : [
     {
       name: 'Equalizer 2',
