@@ -40,6 +40,7 @@ header {
 
   a:hover {
     color: rgb(180, 54, 54);
+    transition: all 0.4s ease-in-out;
   }
   img{
       margin: 0px 30px;
@@ -64,6 +65,7 @@ header {
     height: 40px;
     width: 40px;
     color: rgb(180, 54, 54);
+    transition: all 0.4s ease-in-out;
   }
   li img {
     height: 20px;
