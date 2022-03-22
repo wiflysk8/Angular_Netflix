@@ -6,9 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss'],
 })
 export class AppComponent {
-  title = 'Netflix-Angular';
-
-  terror = [
+  title = 'Netflix-Angular';  
+  
+  terrorFilms = [{
+    section:"Terrror",
+  films : [
     {
       name: 'Apostol',
       photo: '../assets/Terror/apostol.jpg',
@@ -33,10 +35,12 @@ export class AppComponent {
       name: 'Malasaña 32',
       photo: '../assets/Terror/malasana.webp',
     },
-  ];
+  ]
+}];
 
-
-  comedy = [
+comedyFilms = [{
+  section:"Comedia",
+films : [
     {
       name: 'rick y morty',
       photo: '../assets/Comedia/rickandmorty.webp',
@@ -61,9 +65,12 @@ export class AppComponent {
       name: 'scary movie 3',
       photo: '../assets/Comedia/scarymovie3.webp',
     },
-  ];
+  ]
+  }];
 
-  drama = [
+  dramaFilms = [{
+    section:"Comedia",
+    films : [
     {
       name: '1917',
       photo: '../assets/Drama/1917.webp',
@@ -88,5 +95,36 @@ export class AppComponent {
       name: 'Scarface',
       photo: '../assets/Drama/scarface.webp',
     },
-  ];
+  ]
+  }];
+
+  actionFilms = [{
+    section:"Acción",
+    films : [
+    {
+      name: 'Equalizer 2',
+      photo: '../assets/Accion/equalizer2.webp',
+    },
+    {
+      name: 'Heat',
+      photo: '../assets/Accion/heat.webp',
+    },
+    {
+      name: 'John wick 2',
+      photo: '../assets/Accion/johnwick2.webp',
+    },
+    {
+      name: 'renacido',
+      photo: '../assets/Accion/renacido.webp',
+    },
+    {
+      name: 'Guerra Mundial Z',
+      photo: '../assets/Accion/worldwarz.webp',
+    },
+    {
+      name: 'Kill Bill',
+      photo: '../assets/Accion/killbill2.webp',
+    },
+  ]
+  }];
 }
