@@ -6,8 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss'],
 })
 export class AppComponent {
-  title = 'Netflix-Angular';  
-  
+  title = 'Netflix-Angular';
+
   terrorFilms = {
     section:"Terrror",
   films : [
@@ -69,7 +69,7 @@ films : [
   };
 
   dramaFilms = {
-    section:"Comedia",
+    section:"Drama",
     films : [
     {
       name: '1917',

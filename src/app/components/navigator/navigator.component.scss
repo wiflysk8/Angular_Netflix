@@ -51,11 +51,11 @@ header {
 
 .b-iconlist {
   display: flex;
-  align-items: flex-end;
-  justify-content:right;
-  margin: 12px 100px;
+  position:absolute;
+  right: 8%;
+  top:5%;
+  width: auto;
   height: 50px;
-  padding: 10px;
   height: 20px;
   a:hover {
     height: 40px;
