@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'Netflix-Angular';  
   
-  terrorFilms = [{
+  terrorFilms = {
     section:"Terrror",
   films : [
     {
@@ -36,9 +36,9 @@ export class AppComponent {
       photo: '../assets/Terror/malasana.webp',
     },
   ]
-}];
+};
 
-comedyFilms = [{
+comedyFilms = {
   section:"Comedia",
 films : [
     {
@@ -66,9 +66,9 @@ films : [
       photo: '../assets/Comedia/scarymovie3.webp',
     },
   ]
-  }];
+  };
 
-  dramaFilms = [{
+  dramaFilms = {
     section:"Comedia",
     films : [
     {
@@ -96,9 +96,9 @@ films : [
       photo: '../assets/Drama/scarface.webp',
     },
   ]
-  }];
+  };
 
-  actionFilms = [{
+  actionFilms = {
     section:"Acción",
     films : [
     {
@@ -126,5 +126,5 @@ films : [
       photo: '../assets/Accion/killbill2.webp',
     },
   ]
-  }];
+  };
 }
