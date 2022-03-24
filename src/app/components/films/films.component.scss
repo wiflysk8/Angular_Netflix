@@ -19,17 +19,17 @@ h4 {
 
 .film {
   cursor: pointer;
-  box-shadow: 3px -2px 4px rgb(145, 142, 142);
   margin: 0px 1px;
   img {
     width: 300px;
     height: 180px;
     border: 2px solid black;
+    box-shadow: 2px -2px 12px rgb(145, 142, 142);
     transition: all 0.5s ease;
     border-radius: 10px;
     &:hover {
       transform: scale(1.1);
-      box-shadow: -2px -2px 12px rgb(145, 142, 142);
+      box-shadow: 6px -2px 12px rgb(145, 142, 142);
       border-radius: 10px;
 
     }
